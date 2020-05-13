@@ -4,4 +4,6 @@
 
 ## Functions
 ### fSplit.R
-+ Function to split single-part polygone shapes
+* Function to split single-part polygone shapes
+* Parameter
+**
