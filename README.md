@@ -19,4 +19,13 @@ fsplit(IN.DIR = ".../fMask/INPUT/",
        SPLIT.ID = "id")
 
 ###  fMaskRaster.R
-####
+#### Function to mask gridded geodata by means of polygon shape files
+#### Parameter
+- SHP.DIR = directory of shape files
+- SHP.PF = Prefix of shape files
+- RASTER.DIR = directory of raster files
+- RASTER.GRD = name of raster file (without extension)
+- RASTER.FRM = raster format (tif, asc, sdat)
+- RASTER.EPSG = EPSG code (https://spatialreference.org)
+- OUT.DIR= directory of output data
+- MULTI = multi- or single layer raster (TRUE or FALSE)
