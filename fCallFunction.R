@@ -1,24 +1,21 @@
 #Function to create single shape polygons from a 
 source("e:/PH_R-Wunsch/FUNCTION/fSplit.R")
-fSplit(IN.DIR="e:/PH_R-Wunsch/INPUT/",
-       SHP="Parzellen",
-       OUT.DIR="e:/PH_R-Wunsch/OUTPUT/",
+fSplit(IN.DIR="...",
+       SHP="...",
+       OUT.DIR="...",
        EPSG=25833,
-       SPLIT.ID="id")
+       SPLIT.ID="...")
 
 
-#Function to 
-
-
-
+#Function to mask gridded raster data
 source("e:/PH_R-Wunsch/FUNCTION/fCropRaster.R")
-fCropRaster(SHP.DIR="e:/PH_R-Wunsch/OUTPUT/",
-            SHP.PF="Parzellen",
-            RASTER.DIR="e:/PH_R-Wunsch/INPUT/",
-            RASTER.GRD="20200427_rgb_dd_6cm",
+fCropRaster(SHP.DIR="...",
+            SHP.PF="...",
+            RASTER.DIR="...",
+            RASTER.GRD="...",
             RASTER.FRM=".tif",
             RASTER.EPSG=25833,
-            OUT.DIR="e:/PH_R-Wunsch/OUTPUT/",
+            OUT.DIR="...",
             MULTI=TRUE)
 
 
