@@ -29,3 +29,12 @@ fsplit(IN.DIR = ".../fMask/INPUT/",
 - RASTER.EPSG = EPSG code (https://spatialreference.org)
 - OUT.DIR= directory of output data
 - MULTI = multi- or single layer raster (TRUE or FALSE)
+#### Example
+fMaskRaster(SHP.DIR = ".../fMask/OUTPUT/",
+            SHP.PF = "Parzellen",
+            RASTER.DIR = ".../fMask/INPUT/",
+            RASTER.GRD = "20200427_rgb_dd_6cm",
+            RASTER.FRM = ".tif",
+            RASTER.EPSG = 25833,
+            OUT.DIR = ".../fMask/OUTPUT/",
+            MULTI = TRUE)
