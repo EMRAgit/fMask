@@ -4,8 +4,8 @@
 
 ## Functions
 ### fSplit.R
-* Function to split single-part polygone shapes
-* Parameter
+#### Function to split single-part polygone shapes
+#### Parameter:
 - IN.DIR = directory of input data
 - OUT.DIR = directory of output data
 - SHP = single-part shape file
