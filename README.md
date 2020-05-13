@@ -3,4 +3,5 @@
 * Author: Markus Möller, email: markus.moeller@julius-kuehn.de
 
 ## Functions
-* fSplit.R - Function to split single-part polygone shapes
+### fSplit.R
++ Function to split single-part polygone shapes
